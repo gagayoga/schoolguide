@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="image/logo.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <title>School-Guide.com</title>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="row align-items-center justify-content-between">
+                <div class="logo">
+                    <a href="#">School <span class="text">Guide</span> </a>
+                </div>
+                <button type="button" class="nav-toggler">
+                   <span></span>
+                </button>
+                <nav class="nav">
+                   <ul>
+                    <li><a href="#1" class="active">home</a></li>
+                    <li><a href="#3">about</a></li>
+                    <li><a href="#2">menu</a></li>
+                    <li onclick="contact()"><a href="#">contact</a></li>
+                   </ul>
+                </nav>
+            </div>
+        </div>
+     </header>
+     <section class="Home" id="1">
+        <div class="container-home">
+            <div class="text-home">
+                <p class="text-1">Selamat Datang di</p>
+                <p class="text-2">School Guide </p>
+                <p class="text-3">School guide adalah sebuah media informasi yang berisi tentang buku panduan sekolah online yang dapat diakses di web dan aplikasi</p>
+                <button class="button-home" data-aos="zoom-in"  data-aos-duration="1000" data-aos-easing="ease-in-out"><a href="#2">Let's Goow</a></button>
+            </div>
+            <div class="image">
+                <img src="image/papan.png" alt="">
+                <img src="image/manusia.png" alt="" id="image-image">
+            </div>
+        </div>
+        <div class="bg">
+            <img src="image/Vector.png" alt="">
+        </div>
+     </section>
+
+     <section class="menu" id="2">
+        <div class="text-menu">
+            <p class="h-text">Menu School Guide</p>
+            <p class="f-text">Terdapat menu untuk menampilkan informasi antara lain,menu fasilitas sekolah menu ruang praktek,menu ruang kelas, menu jurusan, menu pearaturan dll</p>
+        </div>
+        <div class="konten-menu">
+            <div class="bungkus" data-aos="zoom-in"  data-aos-duration="1500" data-aos-easing="ease-in-out">
+                <img src="image/fasilitas.png" alt="">
+                <div class="text-menu2">
+                    <p class="judul-menu">fasilitas</p>
+                    <p class="deskripsi-menu">Berisi informasi mengenai fasilitas yang terdapat di sekolah ini.</p>
+                </div>
+            </div>
+            <div class="bungkus" data-aos="zoom-in"  data-aos-duration="1500" data-aos-easing="ease-in-out"    data-aos-delay="300">
+                <img src="image/praktek.png" alt="">
+                <div class="text-menu2">
+                    <p class="judul-menu">Ruang Praktek</p>
+                    <p class="deskripsi-menu">Tempat praktek yang biasanya ditempati untuk menjalankan praktek sesuai dengan kompetisi masing-masing..</p>
+                </div>
+            </div>
+            <div class="bungkus" data-aos="zoom-in"  data-aos-duration="1500" data-aos-easing="ease-in-out"    data-aos-delay="600">
+                <img src="image/classroom.png" alt="">
+                <div class="text-menu2">
+                    <p class="judul-menu">Ruang Kelas</p>
+                    <p class="deskripsi-menu">Informasi ruang kelas yang terdapat di SMK Negeri 5 Surakarta,no ruang mulai dari 100-200.</p>
+                </div>
+            </div>
+            <div class="bungkus" data-aos="zoom-in"  data-aos-duration="1500" data-aos-easing="ease-in-out" de    data-aos-delay="900">
+                <img src="image/jurusan.png" alt="">
+                <div class="text-menu2">
+                    <p class="judul-menu">Jurusan</p>
+                    <p class="deskripsi-menu">SMK Negeri 5 Surakarta terdapat 7 jurusan,mulai dari RPL,TKRO,BKP,dll..</p>
+                </div>
+            </div>
+        </div>
+     </section>
+
+     <section class="about" id="3">
+        <img src="image/mockup.png" alt="gambar aplikasi school guide" data-aos="zoom-in-up"  data-aos-duration="1500" data-aos-easing="ease-in-out" data-aos-delay="1000">
+        <div class="text-about">
+            <p class="judul-about">School <span style="color: #5C4DC2;">Guide</span></p>
+            <p class="deskripsi-about">School Guide adalah media informasi mengenai informasi sekolah SMK NEGERI 5 SURAKARTA yang berisikan tentang informasi fasilitas,jurusan,dan lain sebagainya.Yang bertujuan untuk menggantikan buku panduan sekolah,sehingga siswa dapat melihat informasi dengan mudah melalui website ataupun melalui aplikasi s-guide tanpa harus melihat melalui buku lagi.</p>
+            <button class="button-home" data-aos="zoom-in"  data-aos-duration="1000" data-aos-easing="ease-in-out" onclick="app()"><a href="#">Download Aplikasi</a></button>
+        </div>
+     </section>
+
+     <footer>
+        <p class="judul-f">School <span style="color: #5C4DC2;" >Guide</span></p>
+        <p class="isi-foot">Ini merupakan sebuah media yang dibuat untuk tugas Pemodelan Perangkat Lunak kelas 11 jurusan Rekayasa Perangkat Lunak mengenai aplikasi dan website yang berhubungan dengan lingkungan sekolah,untuk itu kami membuat media informasi ini untuk tugas sekolah kami,sekian terima kasih..</p>
+        <div class="awesome">
+            <i class="fa fa-whatsapp" aria-hidden="true" style="font-size:30px;"></i>
+            <i class="fa fa-instagram" aria-hidden="true" style="font-size:30px;"></i>
+            <i class="fa fa-twitter" aria-hidden="true" style="font-size:30px;"></i>
+            <i class="fa fa-phone" aria-hidden="true" style="font-size:30px;"></i>
+        </div>
+        <hr>
+            <div class="pembuat">
+                <p>@2023/kelompokaplikasischoolguide</p>
+            </div>
+     </footer>
+     
+     <script src="script.js"></script>
+</body>
+</html>
